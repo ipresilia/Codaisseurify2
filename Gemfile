@@ -58,3 +58,10 @@ end
 group :test do
   gem 'capybara', '~> 2.9', '>= 2.9.1'
 end
+
+
+# Bootstrap
+gem 'bootstrap-sass', '~> 3.3.6'
+
+# jQuery
+gem 'jquery-rails', '~> 4.3.1'
