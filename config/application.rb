@@ -29,3 +29,11 @@ module Codaisseurify
     config.generators.system_tests = nil
   end
 end
+
+module Codaisseurify
+  class Application < Rails::Application
+    console do
+      ActiveRecord::Base.connection
+    end
+  end
+end
