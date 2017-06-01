@@ -65,3 +65,6 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 # jQuery
 gem 'jquery-rails', '~> 4.3.1'
+
+# Devise
+gem 'devise', '~> 4.2'
